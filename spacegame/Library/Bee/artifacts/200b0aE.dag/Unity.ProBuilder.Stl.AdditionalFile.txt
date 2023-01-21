@@ -1,1 +1,1 @@
-/Users/richardchen/Documents/GitHub/uofthacks2023.exe/spacegame
+/Users/richardchen/Documents/GitHub/spaceexegame/spacegame
