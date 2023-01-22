@@ -54,18 +54,18 @@ extern void Countdown_Start_mFC01CF26D7C1B8CF52DA71A1711DEDAFF1754BDD (void);
 extern void Countdown_StartCountdown_mEC95EB59EEA449050DDC2A0BB87C470DF57F39FB (void);
 // 0x00000015 System.Void Countdown::.ctor()
 extern void Countdown__ctor_m54AD77AF098F758C37EC2CFEE0BB64497E77B8E7 (void);
-// 0x00000016 System.Void Countdown/<StartCountdown>d__3::.ctor(System.Int32)
-extern void U3CStartCountdownU3Ed__3__ctor_m1EFE47F0D70E6B8A8CB0B64C58BB7949531ED9A6 (void);
-// 0x00000017 System.Void Countdown/<StartCountdown>d__3::System.IDisposable.Dispose()
-extern void U3CStartCountdownU3Ed__3_System_IDisposable_Dispose_m62F7A448DF8D60192CE41F68B79E58C74305D316 (void);
-// 0x00000018 System.Boolean Countdown/<StartCountdown>d__3::MoveNext()
-extern void U3CStartCountdownU3Ed__3_MoveNext_mB7F88265A3FA9DAC2514695212036B331CB88A3F (void);
-// 0x00000019 System.Object Countdown/<StartCountdown>d__3::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CStartCountdownU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC4DEAAF86633CCE7A01930981CEFBA7BAF14F2EA (void);
-// 0x0000001A System.Void Countdown/<StartCountdown>d__3::System.Collections.IEnumerator.Reset()
-extern void U3CStartCountdownU3Ed__3_System_Collections_IEnumerator_Reset_m34725F690A3FD451E80247753F740ADD1B7AE89E (void);
-// 0x0000001B System.Object Countdown/<StartCountdown>d__3::System.Collections.IEnumerator.get_Current()
-extern void U3CStartCountdownU3Ed__3_System_Collections_IEnumerator_get_Current_mB937738610AF28244E221BE400C1D64E30D6988C (void);
+// 0x00000016 System.Void Countdown/<StartCountdown>d__4::.ctor(System.Int32)
+extern void U3CStartCountdownU3Ed__4__ctor_mB7A9270363F5E03BFF2D1038772CE1497FF850A6 (void);
+// 0x00000017 System.Void Countdown/<StartCountdown>d__4::System.IDisposable.Dispose()
+extern void U3CStartCountdownU3Ed__4_System_IDisposable_Dispose_mE0761F9E170372F5BFAB2659DD5E886482F417E4 (void);
+// 0x00000018 System.Boolean Countdown/<StartCountdown>d__4::MoveNext()
+extern void U3CStartCountdownU3Ed__4_MoveNext_m0FE4C44E912231457EFAC5433CD2BA76F2624A79 (void);
+// 0x00000019 System.Object Countdown/<StartCountdown>d__4::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CStartCountdownU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD804B798D5CCAFF825C5D71734D4A818E6ED4FBB (void);
+// 0x0000001A System.Void Countdown/<StartCountdown>d__4::System.Collections.IEnumerator.Reset()
+extern void U3CStartCountdownU3Ed__4_System_Collections_IEnumerator_Reset_m6E3C271C9B6A2F0ABD533B625F6D73A97AA35EC6 (void);
+// 0x0000001B System.Object Countdown/<StartCountdown>d__4::System.Collections.IEnumerator.get_Current()
+extern void U3CStartCountdownU3Ed__4_System_Collections_IEnumerator_get_Current_mE792794170C4C50E3315EEA2CB326376E65D9FB2 (void);
 // 0x0000001C System.Void FPMovement::Update()
 extern void FPMovement_Update_m4D571EB618BF4798A9B7CFD02D0FE37BB4B03BBF (void);
 // 0x0000001D System.Void FPMovement::.ctor()
@@ -121,12 +121,12 @@ static Il2CppMethodPointer s_methodPointers[43] =
 	Countdown_Start_mFC01CF26D7C1B8CF52DA71A1711DEDAFF1754BDD,
 	Countdown_StartCountdown_mEC95EB59EEA449050DDC2A0BB87C470DF57F39FB,
 	Countdown__ctor_m54AD77AF098F758C37EC2CFEE0BB64497E77B8E7,
-	U3CStartCountdownU3Ed__3__ctor_m1EFE47F0D70E6B8A8CB0B64C58BB7949531ED9A6,
-	U3CStartCountdownU3Ed__3_System_IDisposable_Dispose_m62F7A448DF8D60192CE41F68B79E58C74305D316,
-	U3CStartCountdownU3Ed__3_MoveNext_mB7F88265A3FA9DAC2514695212036B331CB88A3F,
-	U3CStartCountdownU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC4DEAAF86633CCE7A01930981CEFBA7BAF14F2EA,
-	U3CStartCountdownU3Ed__3_System_Collections_IEnumerator_Reset_m34725F690A3FD451E80247753F740ADD1B7AE89E,
-	U3CStartCountdownU3Ed__3_System_Collections_IEnumerator_get_Current_mB937738610AF28244E221BE400C1D64E30D6988C,
+	U3CStartCountdownU3Ed__4__ctor_mB7A9270363F5E03BFF2D1038772CE1497FF850A6,
+	U3CStartCountdownU3Ed__4_System_IDisposable_Dispose_mE0761F9E170372F5BFAB2659DD5E886482F417E4,
+	U3CStartCountdownU3Ed__4_MoveNext_m0FE4C44E912231457EFAC5433CD2BA76F2624A79,
+	U3CStartCountdownU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD804B798D5CCAFF825C5D71734D4A818E6ED4FBB,
+	U3CStartCountdownU3Ed__4_System_Collections_IEnumerator_Reset_m6E3C271C9B6A2F0ABD533B625F6D73A97AA35EC6,
+	U3CStartCountdownU3Ed__4_System_Collections_IEnumerator_get_Current_mE792794170C4C50E3315EEA2CB326376E65D9FB2,
 	FPMovement_Update_m4D571EB618BF4798A9B7CFD02D0FE37BB4B03BBF,
 	FPMovement__ctor_mEEE4318B20E6055EDD27D8D6B9BEB4E4C99C495A,
 	MouseLook_Start_m08FD16A47A96624540CD1B8EBA5FFAA1FD75E686,

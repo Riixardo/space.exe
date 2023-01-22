@@ -12,9 +12,6 @@ ScriptsOnlyBuild:
     - Unity.Play.Publisher.Editor.PublisherWindow
     Unity.ProBuilder.Editor.dll:
     - UnityEditor.ProBuilder.ProBuilderEditor
-    - UnityEditor.ProBuilder.ProbuilderMoveTool
-    - UnityEditor.ProBuilder.ProbuilderRotateTool
-    - UnityEditor.ProBuilder.ProbuilderScaleTool
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -84,6 +81,10 @@ ScriptsOnlyBuild:
     - Class: 64
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -543,7 +544,7 @@ ScriptsOnlyBuild:
     className: ScriptGraphAsset
   - hash:
       serializedVersion: 2
-      Hash: d5d47ab1a72c21f2db2b7dbe6107f472
+      Hash: 845f8b6c12df4ecd5446ebef5089b97a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Countdown
@@ -1079,4 +1080,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/ScenesOG/Earth.unity
   - Assets/ScenesOG/Mars.unity
-  playerPath: /Users/richardchen/Documents/GitHub/spaceexegame/GameVersion2
+  playerPath: /Users/richardchen/Documents/GitHub/spaceexegame/FinalGame/GameVersion3

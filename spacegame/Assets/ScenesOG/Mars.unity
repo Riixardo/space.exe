@@ -35300,7 +35300,7 @@ GameObject:
   - component: {fileID: 448096965}
   - component: {fileID: 448096964}
   - component: {fileID: 448096963}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36178,7 +36178,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3504
+  m_Name: pb_Mesh28700
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -37545,7 +37545,7 @@ GameObject:
   - component: {fileID: 659534558}
   - component: {fileID: 659534557}
   - component: {fileID: 659534556}
-  m_Layer: 1
+  m_Layer: 6
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39020,8 +39020,8 @@ MonoBehaviour:
     m_Bits: 64
   groundDistance: 0.3
   speed: 2
-  gravity: -6
-  jumpHeight: 1
+  gravity: -3
+  jumpHeight: 3
   onChair: 0
 --- !u!143 &1318990349
 CharacterController:
@@ -39635,6 +39635,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 8d78db784e73e49f6aa94fd1a3048db8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 8d78db784e73e49f6aa94fd1a3048db8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8d78db784e73e49f6aa94fd1a3048db8, type: 3}
       propertyPath: m_Name
