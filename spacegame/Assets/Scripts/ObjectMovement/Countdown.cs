@@ -6,6 +6,7 @@ using TMPro;
 public class Countdown : MonoBehaviour
 {
     public RocketBlast blast;
+    public AudioSource s;
     TextMeshProUGUI text;
 
     void Start()
@@ -14,12 +15,13 @@ public class Countdown : MonoBehaviour
     }
     public IEnumerator StartCountdown() {
         text.enabled = true;
-        int t = 10;
+        s.Play();
+        int t = 14;
         while (t > - 1) {
             if (t == 0) {
                 text.text = "BLAST OFF!!!";
             }
-            else {
+            else if(t <= 10) {
                 text.text = "Countdown: " + t;
             }
             yield return new WaitForSeconds(1f);

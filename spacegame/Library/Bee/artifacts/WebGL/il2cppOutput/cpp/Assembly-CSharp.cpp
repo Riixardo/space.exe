@@ -3533,44 +3533,51 @@ IL_0051:
 		L_26 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_24, L_25, NULL);
 		int32_t L_27;
 		L_27 = CharacterController_Move_mE3F7AC1B4A2D6955980811C088B68ED3A31D2DA4(L_21, L_26, NULL);
-		// if (Input.GetButtonDown("Jump")) {
+		// if (Input.GetButtonDown("Jump") && isGrounded) {
 		bool L_28;
 		L_28 = Input_GetButtonDown_mEF5F80C9E8F04104E807D9CBD6F70CDB98751579(_stringLiteral70253F929BCE7F81DF1A5A1C0900BED744E86C9C, NULL);
 		if (!L_28)
 		{
-			goto IL_00e0;
+			goto IL_00e8;
+		}
+	}
+	{
+		bool L_29 = __this->___isGrounded_13;
+		if (!L_29)
+		{
+			goto IL_00e8;
 		}
 	}
 	{
 		// velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_29 = (&__this->___velocity_12);
-		float L_30 = __this->___jumpHeight_10;
-		float L_31 = __this->___gravity_9;
-		float L_32;
-		L_32 = sqrtf(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_30, (-2.0f))), L_31)));
-		L_29->___y_3 = L_32;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_30 = (&__this->___velocity_12);
+		float L_31 = __this->___jumpHeight_10;
+		float L_32 = __this->___gravity_9;
+		float L_33;
+		L_33 = sqrtf(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_31, (-2.0f))), L_32)));
+		L_30->___y_3 = L_33;
 	}
 
-IL_00e0:
+IL_00e8:
 	{
 		// velocity.y += gravity * Time.deltaTime;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_33 = (&__this->___velocity_12);
-		float* L_34 = (&L_33->___y_3);
-		float* L_35 = L_34;
-		float L_36 = *((float*)L_35);
-		float L_37 = __this->___gravity_9;
-		float L_38;
-		L_38 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
-		*((float*)L_35) = (float)((float)il2cpp_codegen_add(L_36, ((float)il2cpp_codegen_multiply(L_37, L_38))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_34 = (&__this->___velocity_12);
+		float* L_35 = (&L_34->___y_3);
+		float* L_36 = L_35;
+		float L_37 = *((float*)L_36);
+		float L_38 = __this->___gravity_9;
+		float L_39;
+		L_39 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		*((float*)L_36) = (float)((float)il2cpp_codegen_add(L_37, ((float)il2cpp_codegen_multiply(L_38, L_39))));
 		// controller.Move(velocity * Time.deltaTime);
-		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_39 = __this->___controller_4;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = __this->___velocity_12;
-		float L_41;
-		L_41 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42;
-		L_42 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_40, L_41, NULL);
-		int32_t L_43;
-		L_43 = CharacterController_Move_mE3F7AC1B4A2D6955980811C088B68ED3A31D2DA4(L_39, L_42, NULL);
+		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_40 = __this->___controller_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41 = __this->___velocity_12;
+		float L_42;
+		L_42 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43;
+		L_43 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_41, L_42, NULL);
+		int32_t L_44;
+		L_44 = CharacterController_Move_mE3F7AC1B4A2D6955980811C088B68ED3A31D2DA4(L_40, L_43, NULL);
 		// }
 		return;
 	}
