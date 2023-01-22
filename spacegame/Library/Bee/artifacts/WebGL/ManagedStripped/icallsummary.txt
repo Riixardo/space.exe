@@ -6,6 +6,7 @@ Unity.Jobs.JobHandle::ScheduleBatchedJobs
 Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::CreateMarker
 Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::BeginSample
 Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::EndSample
+UnityEngine.AI.NavMeshAgent::SetDestination_Injected
 UnityEngine.AnimationCurve::Internal_Equals
 UnityEngine.AnimationCurve::Internal_Create
 UnityEngine.AnimationCurve::Internal_Destroy
@@ -381,8 +382,13 @@ UnityEngine.Object::set_hideFlags
 UnityEngine.Object::get_hideFlags
 UnityEngine.Object::FindObjectFromInstanceID
 UnityEngine.Object::Internal_CloneSingle
+UnityEngine.Object::Internal_InstantiateSingle_Injected
 UnityEngine.ObjectGUIState::Internal_Create
 UnityEngine.ObjectGUIState::Internal_Destroy
+UnityEngine.ParticleSystem::EmitOld_Internal
+UnityEngine.ParticleSystem::Emit_Injected
+UnityEngine.ParticleSystem::Emit_Internal
+UnityEngine.ParticleSystemRenderer::GetMeshes
 UnityEngine.Physics::CheckSphere_Internal_Injected
 UnityEngine.Physics::get_defaultPhysicsScene_Injected
 UnityEngine.Physics::Internal_RaycastAll_Injected
@@ -465,6 +471,8 @@ UnityEngine.RenderTexture::GetTemporary_Internal_Injected
 UnityEngine.Resources::GetBuiltinResource
 UnityEngine.ResourcesAPIInternal::Load
 UnityEngine.ResourcesAPIInternal::FindShaderByName
+UnityEngine.Rigidbody::get_velocity_Injected
+UnityEngine.Rigidbody::set_velocity_Injected
 UnityEngine.SceneManagement.SceneManager::get_sceneCount
 UnityEngine.SceneManagement.SceneManager::GetSceneAt_Injected
 UnityEngine.SceneManagement.SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected

@@ -3,7 +3,7 @@
     {
       "type": "il2cppData",
       "msg": {
-        "build_event_id": "d4d4ec18324d744f8bd0f00a74c7bfd6",
+        "build_event_id": "2bc8199adf3dc415bb765ea054cf5114",
         "node_executed": true,
         "attribute_total_count_eager_static_constructor": 8,
         "attribute_total_count_set_option": 0,
@@ -40,17 +40,17 @@
     {
       "type": "playerBuildTimingData",
       "msg": {
-        "build_event_id": "d4d4ec18324d744f8bd0f00a74c7bfd6",
-        "build_player": 130987,
-        "preprocess_player": 33,
-        "produce_player_script_assemblies": 3416,
-        "build_scripts_dlls": 113,
-        "writing_asset_files": 477,
-        "postprocess_built_player": 120812,
+        "build_event_id": "2bc8199adf3dc415bb765ea054cf5114",
+        "build_player": 156845,
+        "preprocess_player": 60,
+        "produce_player_script_assemblies": 2558,
+        "build_scripts_dlls": 119,
+        "writing_asset_files": 579,
+        "postprocess_built_player": 138003,
         "node_summary_table": [
           {
             "name": "Csc",
-            "duration": 1698
+            "duration": 307
           }
         ]
       },
@@ -59,7 +59,7 @@
     {
       "type": "unityLinkerData",
       "msg": {
-        "build_event_id": "d4d4ec18324d744f8bd0f00a74c7bfd6",
+        "build_event_id": "2bc8199adf3dc415bb765ea054cf5114",
         "node_executed": true,
         "attribute_marked_count_always_link_assembly": 0,
         "attribute_swept_count_always_link_assembly": 0,
@@ -83,10 +83,10 @@
         "attribute_marked_count_dynamic_dependency": 11,
         "attribute_swept_count_dynamic_dependency": -11,
         "assembly_counts_total_in": 87,
-        "assembly_counts_link": 26,
+        "assembly_counts_link": 28,
         "assembly_counts_copy": 3,
-        "assembly_counts_delete": 58,
-        "assembly_counts_total_out": 29,
+        "assembly_counts_delete": 56,
+        "assembly_counts_total_out": 31,
         "unresolved_stubbing_total_count": 0,
         "unresolved_stubbing_missing_interface_method_count": 0,
         "unresolved_stubbing_missing_abstract_class_method_count": 0,
@@ -110,8 +110,8 @@
         "link_xml_assembly_preserve_all_core_count": 0,
         "link_xml_assembly_preserve_all_user_count": 0,
         "engine_module_total_in": 63,
-        "engine_module_deleted": 45,
-        "engine_module_total_out": 18,
+        "engine_module_deleted": 43,
+        "engine_module_total_out": 20,
         "option_rule_set": "Minimal",
         "option_enable_report": false,
         "option_enable_snapshot": false,

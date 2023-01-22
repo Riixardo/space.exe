@@ -20,7 +20,6 @@ public class FPMovement : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(transform.forward);
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
         if (isGrounded && velocity.y < 0) {
