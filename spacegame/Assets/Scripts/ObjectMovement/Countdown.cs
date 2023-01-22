@@ -5,7 +5,9 @@ using TMPro;
 
 public class Countdown : MonoBehaviour
 {
+    public RocketBlast blast;
     TextMeshProUGUI text;
+
     void Start()
     {
         text = GetComponent<TextMeshProUGUI>();
@@ -24,5 +26,6 @@ public class Countdown : MonoBehaviour
             t--;
         }
         text.enabled = false;
+        StartCoroutine(blast.blastOff());
     }
 }

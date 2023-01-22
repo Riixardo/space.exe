@@ -352,11 +352,12 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/RocketBlast.cs"
 "Assets/Scripts/ObjectMovement/ChairMove.cs"
 "Assets/Scripts/ObjectMovement/Countdown.cs"
 "Assets/Scripts/ObjectMovement/FPMovement.cs"
 "Assets/Scripts/ObjectMovement/MouseLook.cs"
+"Assets/Scripts/ObjectMovement/RocketBlast.cs"
+"Assets/Scripts/ObjectMovement/Touchdown.cs"
 -langversion:9.0
 
 /deterministic
