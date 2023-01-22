@@ -15,6 +15,9 @@ ScriptsOnlyBuild:
     - Unity.Play.Publisher.Editor.PublisherWindow
     Unity.ProBuilder.Editor.dll:
     - UnityEditor.ProBuilder.ProBuilderEditor
+    - UnityEditor.ProBuilder.ProbuilderMoveTool
+    - UnityEditor.ProBuilder.ProbuilderRotateTool
+    - UnityEditor.ProBuilder.ProbuilderScaleTool
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -1129,4 +1132,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/ScenesOG/Earth.unity
   - Assets/ScenesOG/Mars.unity
-  playerPath: /Users/richardchen/Documents/GitHub/spaceexegame/FinalGame/GameVersion4
+  playerPath: /Users/richardchen/Documents/GitHub/spaceexegame/FinalGame/GameVersion6
