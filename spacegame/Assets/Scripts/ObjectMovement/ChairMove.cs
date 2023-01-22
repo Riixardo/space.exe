@@ -34,7 +34,8 @@ public class ChairMove : MonoBehaviour
             player.transform.parent = this.transform;
             player.GetComponent<CharacterController>().enabled = false;
             player.transform.Rotate(0, 90f, 0);
-            player.transform.Translate(0, 0, -0.3f);
+            //player.transform.Translate(0, 0, -0.3f);
+            player.transform.position = transform.position;
             ROCKETTIME = true;
             down = false;
         }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Touchdown : MonoBehaviour
 {
@@ -11,6 +12,6 @@ public class Touchdown : MonoBehaviour
         }
     }
     void touchdown() {
-        Debug.Log("TOUUCHDOWN");
+        SceneManager.LoadScene("Mars");
     }
 }
