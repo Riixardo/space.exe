@@ -1,4 +1,4 @@
-# SpaceEXE
+# SpaceEXE, by a group of 4
 
 ## About 
 SpaceEXE is an exploration-themed game made for UofTHacks 2023. It is a first person simulation of a rocket blast off from a post-apocalyptic Earth, taking you to an unknown Planet X. The goal of the game is to convey a sense of interest and excitement for the exploration of the unknown in the universe. 
